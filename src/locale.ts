@@ -1,10 +1,10 @@
 import Handlebars from "handlebars";
 
-const HB_COMPILE_CACHE: Record<string, HandlebarsTemplateDelegate> = {}
+const HB_COMPILE_CACHE: Record<string, HandlebarsTemplateDelegate> = {};
 
 const safeEval = (template: string, ctx: Record<string, unknown>): string => {
     if (!HB_COMPILE_CACHE[template]) {
-        HB_COMPILE_CACHE[template] = Handlebars.compile(template)
+        HB_COMPILE_CACHE[template] = Handlebars.compile(template);
     }
     const data = HB_COMPILE_CACHE[template](ctx);
     return data.trim();
