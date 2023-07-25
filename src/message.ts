@@ -105,7 +105,7 @@ const findBaseErrorMessage = (err: string, messages: Record<string, string>) => 
     const msg = "error_field_" + err;
     if (!isUnknownMessage(messages[msg])) return msg;
     const idx = err.lastIndexOf("_");
-    const baseMsg = idx === -1 || idx === err.length - 1 ? null : "error_field_" + err;
+    const baseMsg = idx === -1 || idx === err.length - 1 ? null : "error_field_" + err.substring(idx + 1);
     if (!baseMsg || isUnknownMessage(messages[baseMsg])) return "?!!" + err;
     return baseMsg;
 };
