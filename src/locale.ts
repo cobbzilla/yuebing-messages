@@ -1,11 +1,13 @@
+import { isUnknownMessage } from "./messages/index.js";
+
 export const parseMessage = (msg: string, messages: Record<string, string>, ctx: Record<string, unknown>): string =>
-    msg
-        ? "" +
-          msg.replace(/{{[^}]+}}/g, (match: string): string => {
+    isUnknownMessage(msg)
+        ? ""
+        : "" +
+          messages[msg].replace(/{{[^}]+}}/g, (match: string): string => {
               const expression = match.slice(2, -2).trim();
               return ctx[expression] ? `${ctx[expression]}` : `?!${expression}`;
-          })
-        : "";
+          });
 
 export const parseDateMessage = (
     msg: string,
