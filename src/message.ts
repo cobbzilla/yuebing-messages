@@ -102,10 +102,10 @@ export const localeMessagesForUser = (
 };
 
 export const fieldErrorMessage = (
-    field: any,
-    error: any,
+    field: string | { name: string; label?: string },
+    error: string | string[],
     messages: Record<string, string>,
-    labelPrefixes: string | string[] = ["label_"]
+    labelPrefixes: string | string[] = ["", "label_"]
 ) => {
     let fieldObject = null;
     if (typeof field === "object") {

@@ -13,6 +13,7 @@ declare const _default: {
     title_profile: string;
     button_profile: string;
     button_update: string;
+    button_cancel: string;
     info_profile_update: string;
     button_reset_password: string;
     button_delete_my_account: string;
