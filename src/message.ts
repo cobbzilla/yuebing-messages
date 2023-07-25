@@ -140,7 +140,7 @@ export const fieldErrorMessage = (
         }
         return message;
     } else {
-        return parseMessage("error_field_" + error, messages, {
+        return parseMessage(findBaseErrorMessage(error), messages, {
             field: fieldMessage,
         });
     }
