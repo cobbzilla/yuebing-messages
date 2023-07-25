@@ -1,7 +1,7 @@
 import { isUnknownMessage } from "./messages/index.js";
 
 export const parseMessage = (msg: string, messages: Record<string, string>, ctx: Record<string, unknown>): string =>
-    isUnknownMessage(msg)
+    isUnknownMessage(messages[msg])
         ? ""
         : "" +
           messages[msg].replace(/{{[^}]+}}/g, (match: string): string => {

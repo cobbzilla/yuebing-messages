@@ -101,12 +101,12 @@ export const localeMessagesForUser = (
     return findFirstLocaleMatch(locales);
 };
 
-const findBaseErrorMessage = (err: string) => {
+const findBaseErrorMessage = (err: string, messages: Record<string, string>) => {
     const msg = "error_field_" + err;
-    if (!isUnknownMessage(msg)) return msg;
+    if (!isUnknownMessage(messages[msg])) return msg;
     const idx = err.lastIndexOf("_");
     const baseMsg = idx === -1 || idx === err.length - 1 ? null : "error_field_" + err;
-    if (!baseMsg || isUnknownMessage(baseMsg)) return "?!!" + err;
+    if (!baseMsg || isUnknownMessage(messages[baseMsg])) return "?!!" + err;
     return baseMsg;
 };
 
@@ -134,13 +134,13 @@ export const fieldErrorMessage = (
             if (message.length > 0) {
                 message += ", ";
             }
-            message += parseMessage(findBaseErrorMessage(e), messages, {
+            message += parseMessage(findBaseErrorMessage(e, messages), messages, {
                 field: fieldMessage,
             });
         }
         return message;
     } else {
-        return parseMessage(findBaseErrorMessage(error), messages, {
+        return parseMessage(findBaseErrorMessage(error, messages), messages, {
             field: fieldMessage,
         });
     }
