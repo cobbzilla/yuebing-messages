@@ -1,6 +1,6 @@
 {
   "name": "yuebing-messages",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "type": "module",
   "description": "Localized messages for yuebing",
   "keywords": [
@@ -19,6 +19,7 @@
   },
   "license": "Apache-2.0",
   "scripts": {
+    "test": "mocha ./test/*.spec.js",
     "tsc": "tsc --module es2020 -p tsconfig.json && copyfiles --error src/templates/**/*.hbs lib/esm/templates/",
     "lint": "npx eslint src",
     "lint:fix": "npm run lint -- --fix",
@@ -36,17 +37,18 @@
     "lib/"
   ],
   "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
     "@types/node": "^20.3.3",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
+    "chai": "^4.3.6",
     "copyfiles": "^2.4.1",
     "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.8.0",
+    "mocha": "^10.2.0",
     "prettier": "^2.8.8",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^5.1.6"
-  },
-  "dependencies": {
-    "handlebars": "^4.7.7"
   }
 }
