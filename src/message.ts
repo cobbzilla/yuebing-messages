@@ -101,6 +101,15 @@ export const localeMessagesForUser = (
     return findFirstLocaleMatch(locales);
 };
 
+const findBaseErrorMessage = (err: string) => {
+    const msg = "error_field_" + err;
+    if (!isUnknownMessage(msg)) return msg;
+    const idx = err.lastIndexOf("_");
+    const baseMsg = idx === -1 || idx === err.length - 1 ? null : "error_field_" + err;
+    if (!baseMsg || isUnknownMessage(baseMsg)) return "?!!" + err;
+    return baseMsg;
+};
+
 export const fieldErrorMessage = (
     field: string | { name: string; label?: string },
     error: string | string[],
@@ -125,7 +134,7 @@ export const fieldErrorMessage = (
             if (message.length > 0) {
                 message += ", ";
             }
-            message += parseMessage("error_field_" + e, messages, {
+            message += parseMessage(findBaseErrorMessage(e), messages, {
                 field: fieldMessage,
             });
         }
