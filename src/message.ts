@@ -13,11 +13,6 @@ export const localesForUser = (
     }
     if (anonLocale && !locales.includes(anonLocale)) {
         locales.push(anonLocale);
-    } else if (localStorage && typeof localStorage.getItem === "function") {
-        const stored = localStorage.getItem("anon_locale");
-        if (stored && !locales.includes(stored)) {
-            locales.push(stored);
-        }
     }
 
     if (browserLocale && !locales.includes(browserLocale)) {
