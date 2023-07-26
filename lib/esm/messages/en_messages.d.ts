@@ -6,6 +6,8 @@ declare const _default: {
     welcome_user: string;
     title_login: string;
     title_register: string;
+    title_register_setup: string;
+    title_register_setup_details: string;
     title_verifying: string;
     title_requestPasswordReset: string;
     title_resetPassword: string;

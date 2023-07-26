@@ -10,6 +10,8 @@ export default {
   welcome_user: 'Welcome to {{ title }}, {{user.firstName || user.email.includes("@") ? user.email.substring(0, user.email.indexOf("@")) : user.email}}!',
   title_login: 'Sign In',
   title_register: 'Sign Up',
+  title_register_setup: 'Set up administrator account',
+  title_register_setup_details: 'Welcome to {{ title }}! Please fill out the form below to create an initial admin account.',
   title_verifying: 'Verifying account...',
   title_requestPasswordReset: 'Reset password',
   title_resetPassword: 'Set a new password',
