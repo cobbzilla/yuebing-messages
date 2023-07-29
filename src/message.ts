@@ -1,15 +1,15 @@
 import { YUEBING_LOCALES, MESSAGES, isUnknownMessage } from "./messages/index.js";
 import { parseMessage } from "./locale.js";
 
-export const localesForUser = (
-    user: any,
+export const localesForAccount = (
+    account: any,
     browserLocale: string | null = null,
     anonLocale: string | null = null,
     defaultLocale: string | null = null
 ): string[] => {
     const locales: string[] = [];
-    if (user && user.locale && !locales.includes(user.locale)) {
-        locales.push(user.locale);
+    if (account && account.locale && !locales.includes(account.locale)) {
+        locales.push(account.locale);
     }
     if (anonLocale && !locales.includes(anonLocale)) {
         locales.push(anonLocale);
@@ -21,16 +21,16 @@ export const localesForUser = (
     if (defaultLocale && !locales.includes(defaultLocale)) {
         locales.push(defaultLocale);
     }
-    // console.log(`localesForUser returning: ${JSON.stringify(locales)}`)
+    // console.log(`localesForAccount returning: ${JSON.stringify(locales)}`)
     return locales;
 };
 
 export const localesList = (
-    user: any,
+    account: any,
     browserLocale: string | null,
     anonLocale: string | null
 ): Record<string, string>[] => {
-    const messages = findFirstLocaleMatch(localesForUser(user, browserLocale, anonLocale));
+    const messages = findFirstLocaleMatch(localesForAccount(account, browserLocale, anonLocale));
     return YUEBING_LOCALES.map((loc: string) => {
         const localeDescription = messages["locale_" + loc];
         const description =
@@ -68,12 +68,12 @@ const findFirstLocaleMatch = (locales: string[]): Record<string, string> => {
     return MESSAGES[findFirstLocaleNameMatch(locales)];
 };
 
-export const userLocale = (
-    user: any,
+export const accountLocale = (
+    account: any,
     browserLocale: string | null,
     anonLocale: string | null
 ): Record<string, string> => {
-    const locales = localesForUser(user, browserLocale, anonLocale);
+    const locales = localesForAccount(account, browserLocale, anonLocale);
     const match = findFirstLocaleMatch(locales);
     return {
         name: match.id,
@@ -81,18 +81,22 @@ export const userLocale = (
     };
 };
 
-export const currentLocaleForUser = (user: any, browserLocale: string | null, anonLocale: string | null): string => {
-    const locales = localesForUser(user, browserLocale, anonLocale);
+export const currentLocaleForAccount = (
+    account: any,
+    browserLocale: string | null,
+    anonLocale: string | null
+): string => {
+    const locales = localesForAccount(account, browserLocale, anonLocale);
     return findFirstLocaleNameMatch(locales);
 };
 
-export const localeMessagesForUser = (
-    user: any,
+export const localeMessagesForAccount = (
+    account: any,
     browserLocale: string | null,
     anonLocale: string | null
 ): Record<string, string> => {
-    // console.log(`localeMessagesForUser(user=${user ? user.locale : null}, browser=${browserLocale}, anon=${anonLocale}} RETURNING: ${match.id || 'default'}`)
-    const locales = localesForUser(user, browserLocale, anonLocale);
+    // console.log(`localeMessagesForAccount(account=${account ? account.locale : null}, browser=${browserLocale}, anon=${anonLocale}} RETURNING: ${match.id || 'default'}`)
+    const locales = localesForAccount(account, browserLocale, anonLocale);
     return findFirstLocaleMatch(locales);
 };
 
