@@ -1,8 +1,12 @@
 import { YUEBING_LOCALES, MESSAGES, isUnknownMessage } from "./messages/index.js";
 import { parseMessage } from "./locale.js";
 
+export type AccountWithLocale = {
+    locale?: string;
+};
+
 export const localesForAccount = (
-    account: any,
+    account: AccountWithLocale,
     browserLocale: string | null = null,
     anonLocale: string | null = null,
     defaultLocale: string | null = null
@@ -26,7 +30,7 @@ export const localesForAccount = (
 };
 
 export const localesList = (
-    account: any,
+    account: AccountWithLocale,
     browserLocale: string | null,
     anonLocale: string | null
 ): Record<string, string>[] => {
@@ -69,7 +73,7 @@ const findFirstLocaleMatch = (locales: string[]): Record<string, string> => {
 };
 
 export const accountLocale = (
-    account: any,
+    account: AccountWithLocale,
     browserLocale: string | null,
     anonLocale: string | null
 ): Record<string, string> => {
@@ -82,7 +86,7 @@ export const accountLocale = (
 };
 
 export const currentLocaleForAccount = (
-    account: any,
+    account: AccountWithLocale,
     browserLocale: string | null,
     anonLocale: string | null
 ): string => {
@@ -91,7 +95,7 @@ export const currentLocaleForAccount = (
 };
 
 export const localeMessagesForAccount = (
-    account: any,
+    account: AccountWithLocale,
     browserLocale: string | null,
     anonLocale: string | null
 ): Record<string, string> => {

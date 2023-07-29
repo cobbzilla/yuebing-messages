@@ -27,6 +27,7 @@ const unknownMessage = (msg: string): string => UNKNOWN_MESSAGE_PREFIX + msg;
 export const isUnknownMessage = (msg: string): boolean => !msg || msg.startsWith(UNKNOWN_MESSAGE_PREFIX);
 
 const messageNotFoundHandler = {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     get(target: any, name: any): string | boolean {
         if (typeof name === "undefined") return unknownMessage("undefined");
         if (name === null) return unknownMessage("null");
