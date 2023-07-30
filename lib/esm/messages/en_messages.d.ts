@@ -482,6 +482,7 @@ declare const _default: {
     label_destinationType_type: string;
     label_volumeType_cacheSize: string;
     label_volumeType_encryptionEnable: string;
+    label_volumeType_encryption_encryption: string;
     label_volumeType_encryption_encryptionKey: string;
     label_volumeType_encryption_encryptionIV: string;
     label_volumeType_encryption_encryptionAlgo: string;
