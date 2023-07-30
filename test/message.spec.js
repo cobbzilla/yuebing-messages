@@ -1,5 +1,5 @@
 import { describe, it } from "mocha";
-import { expect, assert } from "chai";
+import { expect } from "chai";
 
 import * as msg from "../lib/esm/index.js";
 
