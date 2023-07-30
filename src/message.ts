@@ -152,7 +152,7 @@ export const fieldErrorMessage = (
 export const findMessage = (
     key: string,
     messages: Record<string, string>,
-    labelPrefixes: string | string[] = ["label_"]
+    labelPrefixes: string | string[] = ["", "label_"]
 ): string => {
     if (typeof labelPrefixes === "string") {
         labelPrefixes = [labelPrefixes];
