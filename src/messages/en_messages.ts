@@ -469,10 +469,23 @@ export default {
   admin_label_library_name: 'Library Name',
   admin_label_library_sources: 'Source Volumes',
   admin_label_library_destinations: 'Destination Volumes',
+  admin_label_library_media: 'Media Types',
   admin_label_library_autoscanEnabled: 'Enable automatic scanning?',
   admin_label_library_autoscan: 'Automatic Scan Settings',
   admin_label_library_interval: 'Regular scan interval',
   admin_label_library_initialDelay: 'Startup scan delay',
+
+  // Media types
+  label_media_video: 'Video',
+  label_media_video_description: 'Home videos, movies, TV shows, and other motion-picture content',
+  label_media_audio: 'Audio',
+  label_media_audio_description: 'Music, audiobooks, and other sound recordings',
+  label_media_photo: 'Photo',
+  label_media_photo_description: 'Photographs, images, and other pictographic content',
+  label_media_document: 'Document',
+  label_media_document_description: 'Books, papers, and other documents',
+  label_media_mixed: 'Mixed',
+  label_media_mixed_description: 'A mix of content containing any supported media type',
 
   // Data Volume Administration
   admin_label_volume: 'Data Volume',
