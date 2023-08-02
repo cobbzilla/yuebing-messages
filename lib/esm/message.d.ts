@@ -13,6 +13,7 @@ export declare const fieldErrorMessage: (field: string | {
 }, error: string | string[], messages: Record<string, string>, labelPrefixes?: string | string[]) => string;
 export declare const findMessageKey: (key: string, messages: Record<string, string>, labelPrefixes?: string | string[]) => string | null;
 export declare const findMessage: (key: string, messages: Record<string, string>, labelPrefixes?: string | string[]) => string;
+export declare const messageExists: (msgKey: string, messages: Record<string, string>) => boolean;
 export declare const localeLang: (locale: string) => string;
 export declare const localeEmoji: (locale: string) => string | undefined;
 export declare const stopWords: () => string[];

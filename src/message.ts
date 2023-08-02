@@ -200,6 +200,10 @@ export const findMessage = (
     return messages[labelPrefixes[0] + key];
 };
 
+export const messageExists = (msgKey: string, messages: Record<string, string>): boolean => {
+    return !isUnknownMessage(messages[msgKey]);
+};
+
 export const localeLang = (locale: string): string =>
     locale.includes("_") ? locale.substring(0, locale.indexOf("_")) : locale;
 
