@@ -149,6 +149,31 @@ export const fieldErrorMessage = (
     }
 };
 
+export const findMessageKey = (
+    key: string,
+    messages: Record<string, string>,
+    labelPrefixes: string | string[] = ["", "label_"]
+): string | null => {
+    if (typeof labelPrefixes === "string") {
+        labelPrefixes = [labelPrefixes];
+    }
+    if (!Array.isArray(labelPrefixes)) {
+        throw new TypeError(
+            `findMessage: unexpected type for labelPrefixes param, expected a string or array. typeof(labelPrefixes)=${typeof labelPrefixes}, Array.isArray(labelPrefixes)=${Array.isArray(
+                labelPrefixes
+            )}`
+        );
+    }
+    for (const prefix of labelPrefixes) {
+        const msgKey = prefix + key;
+        const msg = messages[msgKey];
+        if (!isUnknownMessage(msg)) {
+            return msgKey;
+        }
+    }
+    return null;
+};
+
 export const findMessage = (
     key: string,
     messages: Record<string, string>,
