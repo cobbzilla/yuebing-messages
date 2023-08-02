@@ -471,12 +471,8 @@ export default {
   admin_label_library_destinations: 'Destination Volumes',
   admin_label_library_autoscanEnabled: 'Enable automatic scanning?',
   admin_label_library_autoscan: 'Automatic Scan Settings',
-  admin_label_library_autoscan_interval: 'Regular scan interval',
-  admin_label_library_autoscan_initialDelay: 'Startup scan delay',
-  admin_label_library_autoscan_showTransformOutput: 'Log transform output?',
-  admin_label_library_autoscan_cleanupTemporaryAssets: 'Clean up temporary files?',
-  admin_label_library_autoscan_deleteIncompleteUploads: 'Clean up incomplete uploads?',
-  admin_label_library_autoscan_concurrency: 'Concurrency',
+  admin_label_library_interval: 'Regular scan interval',
+  admin_label_library_initialDelay: 'Startup scan delay',
 
   // Data Volume Administration
   admin_label_volume: 'Data Volume',

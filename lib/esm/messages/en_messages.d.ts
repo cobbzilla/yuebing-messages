@@ -439,12 +439,8 @@ declare const _default: {
     admin_label_library_destinations: string;
     admin_label_library_autoscanEnabled: string;
     admin_label_library_autoscan: string;
-    admin_label_library_autoscan_interval: string;
-    admin_label_library_autoscan_initialDelay: string;
-    admin_label_library_autoscan_showTransformOutput: string;
-    admin_label_library_autoscan_cleanupTemporaryAssets: string;
-    admin_label_library_autoscan_deleteIncompleteUploads: string;
-    admin_label_library_autoscan_concurrency: string;
+    admin_label_library_interval: string;
+    admin_label_library_initialDelay: string;
     admin_label_volume: string;
     admin_button_add_volume: string;
     admin_title_add_volume: string;
