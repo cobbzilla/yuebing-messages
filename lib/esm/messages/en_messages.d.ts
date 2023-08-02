@@ -448,8 +448,8 @@ declare const _default: {
     label_media_audio_description: string;
     label_media_photo: string;
     label_media_photo_description: string;
-    label_media_games: string;
-    label_media_games_description: string;
+    label_media_game: string;
+    label_media_game_description: string;
     label_media_document: string;
     label_media_document_description: string;
     label_media_mixed: string;
