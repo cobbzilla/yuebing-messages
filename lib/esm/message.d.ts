@@ -1,3 +1,5 @@
+export declare const DESCRIPTION_MESSAGE_SUFFIX = "_description";
+export declare const HINT_MESSAGE_SUFFIX = "_description";
 export type AccountWithLocale = {
     locale?: string;
 };

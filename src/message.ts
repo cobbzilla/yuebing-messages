@@ -1,6 +1,9 @@
 import { YUEBING_LOCALES, MESSAGES, isUnknownMessage } from "./messages/index.js";
 import { parseMessage } from "./locale.js";
 
+export const DESCRIPTION_MESSAGE_SUFFIX = "_description";
+export const HINT_MESSAGE_SUFFIX = DESCRIPTION_MESSAGE_SUFFIX;
+
 export type AccountWithLocale = {
     locale?: string;
 };
