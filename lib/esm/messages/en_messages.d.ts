@@ -128,6 +128,7 @@ declare const _default: {
     error_field_email: string;
     error_field_cannotDeleteSelf: string;
     error_field_alreadyExists: string;
+    error_field_exists: string;
     error_field_readOnly: string;
     error_field_accountNotFound: string;
     error_field_alreadyRegistered: string;
