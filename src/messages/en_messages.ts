@@ -30,8 +30,18 @@ export default {
   button_reset_password: 'Reset password',
   button_delete_my_account: 'Delete my account (CANNOT BE UNDONE)',
   label_confirm_account_delete: 'Confirm deletion of your account. This action is irreversible!',
+
+  // meta fields
+  label__meta_ctime: 'Created',
+  label__meta_mtime: 'Modified',
+  label__meta_id: 'Object identifier',
+  label__meta_version: 'Object version',
+  label__meta_removed: 'Deletion marker',
+
+  // account fields
   label_email: 'Email',
   label_username: 'Username',
+  label_admin: 'Admin',
   label_usernameOrEmail: 'Username or email',
   label_firstName: 'First Name',
   label_lastName: 'Last Name',

@@ -26,8 +26,14 @@ declare const _default: {
     button_reset_password: string;
     button_delete_my_account: string;
     label_confirm_account_delete: string;
+    label__meta_ctime: string;
+    label__meta_mtime: string;
+    label__meta_id: string;
+    label__meta_version: string;
+    label__meta_removed: string;
     label_email: string;
     label_username: string;
+    label_admin: string;
     label_usernameOrEmail: string;
     label_firstName: string;
     label_lastName: string;
