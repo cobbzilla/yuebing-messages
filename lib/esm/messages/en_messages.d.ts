@@ -1,9 +1,9 @@
 declare const _default: {
     id: string;
     emoji: string;
-    anonymous_user_name: string;
+    anonymous_account_name: string;
     welcome_public: string;
-    welcome_user: string;
+    welcome_account: string;
     title_login: string;
     title_register: string;
     title_register_setup: string;
@@ -25,7 +25,7 @@ declare const _default: {
     info_profile_update: string;
     button_reset_password: string;
     button_delete_my_account: string;
-    label_confirm_user_delete: string;
+    label_confirm_account_delete: string;
     label_email: string;
     label_username: string;
     label_usernameOrEmail: string;
@@ -355,7 +355,7 @@ declare const _default: {
     admin_title_volume_administration: string;
     admin_title_library_administration: string;
     admin_title_volume_browser: string;
-    admin_title_user_administration: string;
+    admin_title_account_administration: string;
     admin_title_migrate_data: string;
     admin_title_transform_queue: string;
     admin_title_index_administration: string;
@@ -377,13 +377,13 @@ declare const _default: {
     admin_label_publicConfig_timeout_verify: string;
     admin_label_publicConfig_timeout_resetPassword: string;
     admin_label_privateConfig_admin: string;
-    admin_label_privateConfig_admin_user: string;
-    admin_label_privateConfig_admin_user_email: string;
-    admin_label_privateConfig_admin_user_username: string;
-    admin_label_privateConfig_admin_user_password: string;
-    admin_label_privateConfig_admin_user_firstName: string;
-    admin_label_privateConfig_admin_user_lastName: string;
-    admin_label_privateConfig_admin_user_locale: string;
+    admin_label_privateConfig_admin_account: string;
+    admin_label_privateConfig_admin_account_email: string;
+    admin_label_privateConfig_admin_account_username: string;
+    admin_label_privateConfig_admin_account_password: string;
+    admin_label_privateConfig_admin_account_firstName: string;
+    admin_label_privateConfig_admin_account_lastName: string;
+    admin_label_privateConfig_admin_account_locale: string;
     admin_label_privateConfig_admin_overwrite: string;
     admin_label_privateConfig_email: string;
     admin_label_privateConfig_email_host: string;
@@ -409,12 +409,11 @@ declare const _default: {
     admin_label_privateConfig_encryption_bcryptRounds: string;
     admin_label_privateConfig_session: string;
     admin_label_privateConfig_session_expiration: string;
-    admin_title_account_administration: string;
-    admin_label_user: string;
-    admin_label_total_user_count: string;
-    admin_button_add_user: string;
-    admin_button_delete_user: string;
-    admin_label_confirm_user_delete: string;
+    admin_label_account: string;
+    admin_label_total_account_count: string;
+    admin_button_add_account: string;
+    admin_button_delete_account: string;
+    admin_label_confirm_account_delete: string;
     label_configCategory: string;
     admin_label_actions: string;
     admin_info_added: string;
