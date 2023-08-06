@@ -132,6 +132,7 @@ declare const _default: {
     error_field_min_value: string;
     error_field_max_value: string;
     error_field_email: string;
+    error_field_cannotUnsetAdminOnSelf: string;
     error_field_cannotDeleteSelf: string;
     error_field_alreadyExists: string;
     error_field_exists: string;
