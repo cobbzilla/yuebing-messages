@@ -90,6 +90,8 @@ export default {
   typename_source: 'source',
   typename_destination: 'destination',
   typename_library: 'library',
+  typename_publicConfig: 'public configuration',
+  typename_privateConfig: 'private configuration',
 
     // media browsing
   title_browsing_folder: 'Folder: {{ folder }}',

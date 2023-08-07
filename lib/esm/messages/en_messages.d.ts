@@ -79,6 +79,8 @@ declare const _default: {
     typename_source: string;
     typename_destination: string;
     typename_library: string;
+    typename_publicConfig: string;
+    typename_privateConfig: string;
     title_browsing_folder: string;
     label_previous_page: string;
     label_next_page: string;
