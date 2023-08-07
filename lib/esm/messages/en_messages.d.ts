@@ -447,8 +447,10 @@ declare const _default: {
     admin_label_library_media_description: string;
     admin_label_library_sources: string;
     admin_label_library_sources_description: string;
+    admin_label_source_confirm_delete: string;
     admin_label_library_destinations: string;
     admin_label_library_destinations_description: string;
+    admin_label_destination_confirm_delete: string;
     admin_label_library_autoscanEnabled: string;
     admin_label_library_autoscan: string;
     admin_label_library_interval: string;
