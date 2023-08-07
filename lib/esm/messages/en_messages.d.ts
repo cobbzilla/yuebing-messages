@@ -364,6 +364,8 @@ declare const _default: {
     admin_title_library_administration: string;
     admin_title_volume_browser: string;
     admin_title_account_administration: string;
+    admin_title_publicConfig_administration: string;
+    admin_title_privateConfig_administration: string;
     admin_title_migrate_data: string;
     admin_title_transform_queue: string;
     admin_title_index_administration: string;

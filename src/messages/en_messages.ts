@@ -391,6 +391,8 @@ export default {
   admin_title_library_administration: 'Manage Libraries',
   admin_title_volume_browser: 'Browse Sources',
   admin_title_account_administration: 'Manage Accounts',
+  admin_title_publicConfig_administration: 'Manage Public Configuration Settings',
+  admin_title_privateConfig_administration: 'Manage Private Configuration Settings',
   admin_title_migrate_data: 'Migrate Data',
   admin_title_transform_queue: 'Media Transform Queue',
   admin_title_index_administration: 'Manage Indexes',
