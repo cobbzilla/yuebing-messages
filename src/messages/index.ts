@@ -48,6 +48,8 @@ export const MESSAGES: HokeyAllMessages = {
     zh: wrapMessages(zh_messages),
 };
 
+export const YUEBING_LOCALES: string[] = Object.keys(MESSAGES);
+
 export const FALLBACK_DEFAULT_LANG = "en";
 
 export const HOKEY = new Hokey(MESSAGES, FALLBACK_DEFAULT_LANG);
