@@ -21,32 +21,9 @@ import ur_messages from "./ur_messages.js";
 import vi_messages from "./vi_messages.js";
 import zh_messages from "./zh_messages.js";
 
-const UNKNOWN_MESSAGE_PREFIX = "???";
+import { Hokey, HokeyAllMessages, wrapMessages } from "hokey-runtime";
 
-const unknownMessage = (msg: string): string => UNKNOWN_MESSAGE_PREFIX + msg;
-export const isUnknownMessage = (msg: string): boolean => !msg || msg.startsWith(UNKNOWN_MESSAGE_PREFIX);
-
-const messageNotFoundHandler = {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    get(target: any, name: any): string | boolean {
-        if (typeof name === "undefined") return unknownMessage("undefined");
-        if (name === null) return unknownMessage("null");
-        if (name === "") return unknownMessage("empty");
-        const checkExists = name.toString().startsWith("!");
-        const index = checkExists ? name.toString().substring(1) : name;
-        /* eslint-disable no-prototype-builtins */
-        if (target.hasOwnProperty(index)) return checkExists ? true : target[index];
-        const altName = index.toString().replace(/\./g, "_");
-        if (target.hasOwnProperty(altName)) return checkExists ? true : target[altName];
-        /* eslint-enable no-prototype-builtins */
-        return checkExists ? false : unknownMessage(name.toString());
-    },
-};
-
-const wrapMessages = (messages: Record<string, string>): Record<string, string> =>
-    new Proxy(Object.assign({}, messages), messageNotFoundHandler);
-
-export const MESSAGES: Record<string, Record<string, string>> = {
+export const MESSAGES: HokeyAllMessages = {
     ar: wrapMessages(ar_messages),
     bn: wrapMessages(bn_messages),
     de: wrapMessages(de_messages),
@@ -71,4 +48,6 @@ export const MESSAGES: Record<string, Record<string, string>> = {
     zh: wrapMessages(zh_messages),
 };
 
-export const YUEBING_LOCALES: string[] = Object.keys(MESSAGES);
+export const FALLBACK_DEFAULT_LANG = "en";
+
+export const HOKEY = new Hokey(MESSAGES, FALLBACK_DEFAULT_LANG);

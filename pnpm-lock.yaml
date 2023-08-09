@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  hokey-runtime:
+    specifier: ^1.0.3
+    version: 1.0.3
+
 devDependencies:
   '@types/chai':
     specifier: ^4.3.5
@@ -808,6 +813,10 @@ packages:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
     dev: true
+
+  /hokey-runtime@1.0.3:
+    resolution: {integrity: sha512-kg/IP7gKAGoxk9EpRNn7qeYuGlhwEAiYdg/UY7JknEfohKBq4LSbeDksxQ/qpmzTcL1DrOIWzBWmJgprld4tFw==}
+    dev: false
 
   /ignore@5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
