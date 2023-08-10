@@ -463,7 +463,7 @@ export default {
   // Generic orm labels
   admin_label_actions: 'Actions',
   admin_info_added: 'New {{ type }} successfully created: {{ id }}',
-  admin_info_add_error: 'Error adding new {{ type }} {{ id }}: {{ error }}',
+  admin_info_add_error: 'Error adding new {{ type }}: {{ error }}',
   admin_info_edited: '{{ type }} successfully edited: {{ id }}',
   admin_info_edit_error: 'Error editing {{ type }} {{ id }}: {{ error }}',
   admin_info_deleted: '{{ type }} successfully removed: {{ id }}',
