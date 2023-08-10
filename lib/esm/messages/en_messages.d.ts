@@ -432,6 +432,8 @@ declare const _default: {
     admin_info_add_error: string;
     admin_info_edited: string;
     admin_info_edit_error: string;
+    admin_info_deleted: string;
+    admin_info_delete_error: string;
     admin_button_add: string;
     admin_button_edit: string;
     admin_button_view: string;
