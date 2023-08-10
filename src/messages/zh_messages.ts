@@ -217,7 +217,7 @@ export default {
   admin_label_publicConfig_title: '网站标题',
   admin_label_publicConfig_siteUrl: '网站网址',
   admin_label_publicConfig_public: '上市？',
-  admin_label_publicConfig_allowRegistration: '允许注册？',
+  admin_label_publicConfig_registrationEnabled: '允许注册？',
   admin_label_publicConfig_limitRegistration: '限制注册',
   admin_label_publicConfig_inviteFriendsEnabled: '向已登录的用户显示“邀请朋友”？',
   admin_label_publicConfig_locales: '当地的',

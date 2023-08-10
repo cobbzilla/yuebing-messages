@@ -222,7 +222,7 @@ export default {
   admin_label_publicConfig_title: 'Taken Yanar Gizo',
   admin_label_publicConfig_siteUrl: 'URL na yanar gizo',
   admin_label_publicConfig_public: 'Jama&#39;a?',
-  admin_label_publicConfig_allowRegistration: 'Izinin Yin Rajista?',
+  admin_label_publicConfig_registrationEnabled: 'Izinin Yin Rajista?',
   admin_label_publicConfig_limitRegistration: 'Iyakance Rijista',
   admin_label_publicConfig_inviteFriendsEnabled: 'Nuna &#39;Gayyatar Abokai&#39; zuwa masu amfani da suka shiga?',
   admin_label_publicConfig_locales: 'Yankuna',

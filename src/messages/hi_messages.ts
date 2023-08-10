@@ -217,7 +217,7 @@ export default {
   admin_label_publicConfig_title: 'क्षेत्र शीर्षक',
   admin_label_publicConfig_siteUrl: 'साइट URL',
   admin_label_publicConfig_public: 'जनता?',
-  admin_label_publicConfig_allowRegistration: 'पंजीकरण की अनुमति दें?',
+  admin_label_publicConfig_registrationEnabled: 'पंजीकरण की अनुमति दें?',
   admin_label_publicConfig_limitRegistration: 'सीमा पंजीकरण',
   admin_label_publicConfig_inviteFriendsEnabled: 'लॉग-इन उपयोगकर्ताओं को \'मित्रों को आमंत्रित करें\' दिखाएँ?',
   admin_label_publicConfig_locales: 'स्थानीय',

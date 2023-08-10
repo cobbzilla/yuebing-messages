@@ -222,7 +222,7 @@ export default {
   admin_label_publicConfig_title: 'ویب سائٹ کا عنوان',
   admin_label_publicConfig_siteUrl: 'سائٹ کا URL',
   admin_label_publicConfig_public: 'عوام؟',
-  admin_label_publicConfig_allowRegistration: 'رجسٹریشن کی اجازت دیں؟',
+  admin_label_publicConfig_registrationEnabled: 'رجسٹریشن کی اجازت دیں؟',
   admin_label_publicConfig_limitRegistration: 'رجسٹریشن کی حد',
   admin_label_publicConfig_inviteFriendsEnabled: 'لاگ ان صارفین کو &#39;دوستوں کو مدعو کریں&#39; دکھائیں؟',
   admin_label_publicConfig_locales: 'مقامی',

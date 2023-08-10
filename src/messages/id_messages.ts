@@ -222,7 +222,7 @@ export default {
   admin_label_publicConfig_title: 'Judul situs',
   admin_label_publicConfig_siteUrl: 'alamat URL',
   admin_label_publicConfig_public: 'Publik?',
-  admin_label_publicConfig_allowRegistration: 'Izinkan Pendaftaran?',
+  admin_label_publicConfig_registrationEnabled: 'Izinkan Pendaftaran?',
   admin_label_publicConfig_limitRegistration: 'Batasi Pendaftaran',
   admin_label_publicConfig_inviteFriendsEnabled: 'Tampilkan &#39;Undang Teman&#39; kepada pengguna yang masuk?',
   admin_label_publicConfig_locales: 'Lokal',

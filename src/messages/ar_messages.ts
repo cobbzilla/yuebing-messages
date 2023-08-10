@@ -217,7 +217,7 @@ export default {
   admin_label_publicConfig_title: 'عنوان الموقع',
   admin_label_publicConfig_siteUrl: 'URL الموقع',
   admin_label_publicConfig_public: 'عام؟',
-  admin_label_publicConfig_allowRegistration: 'السماح بالتسجيل؟',
+  admin_label_publicConfig_registrationEnabled: 'السماح بالتسجيل؟',
   admin_label_publicConfig_limitRegistration: 'تقييد التسجيل',
   admin_label_publicConfig_inviteFriendsEnabled: 'إظهار "دعوة الأصدقاء" للمستخدمين الذين قاموا بتسجيل الدخول؟',
   admin_label_publicConfig_locales: 'محلي',

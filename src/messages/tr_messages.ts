@@ -222,7 +222,7 @@ export default {
   admin_label_publicConfig_title: 'Site Başlığı',
   admin_label_publicConfig_siteUrl: 'Site URL&#39;si',
   admin_label_publicConfig_public: 'Halk?',
-  admin_label_publicConfig_allowRegistration: 'Kayda İzin Verilsin mi?',
+  admin_label_publicConfig_registrationEnabled: 'Kayda İzin Verilsin mi?',
   admin_label_publicConfig_limitRegistration: 'Kayıt Sınırı',
   admin_label_publicConfig_inviteFriendsEnabled: 'Giriş yapmış kullanıcılara &#39;Arkadaş Davet Et&#39; gösterilsin mi?',
   admin_label_publicConfig_locales: 'yerel ayarlar',

@@ -222,7 +222,7 @@ export default {
   admin_label_publicConfig_title: 'Tiêu đề trang web',
   admin_label_publicConfig_siteUrl: 'URL trang web',
   admin_label_publicConfig_public: 'Công cộng?',
-  admin_label_publicConfig_allowRegistration: 'Cho phép đăng ký?',
+  admin_label_publicConfig_registrationEnabled: 'Cho phép đăng ký?',
   admin_label_publicConfig_limitRegistration: 'Đăng ký giới hạn',
   admin_label_publicConfig_inviteFriendsEnabled: 'Hiển thị &#39;Mời bạn bè&#39; cho người dùng đã đăng nhập?',
   admin_label_publicConfig_locales: 'Miền địa phương',

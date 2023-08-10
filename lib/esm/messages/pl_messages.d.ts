@@ -222,7 +222,7 @@ declare const _default: {
     admin_label_publicConfig_title: string;
     admin_label_publicConfig_siteUrl: string;
     admin_label_publicConfig_public: string;
-    admin_label_publicConfig_allowRegistration: string;
+    admin_label_publicConfig_registrationEnabled: string;
     admin_label_publicConfig_limitRegistration: string;
     admin_label_publicConfig_inviteFriendsEnabled: string;
     admin_label_publicConfig_locales: string;

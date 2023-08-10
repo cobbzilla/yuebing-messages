@@ -222,7 +222,7 @@ export default {
   admin_label_publicConfig_title: 'Nazwa strony',
   admin_label_publicConfig_siteUrl: 'Strona URL',
   admin_label_publicConfig_public: 'Publiczny?',
-  admin_label_publicConfig_allowRegistration: 'Zezwól na rejestrację?',
+  admin_label_publicConfig_registrationEnabled: 'Zezwól na rejestrację?',
   admin_label_publicConfig_limitRegistration: 'Ogranicz rejestrację',
   admin_label_publicConfig_inviteFriendsEnabled: 'Pokazać „Zaproś znajomych” zalogowanym użytkownikom?',
   admin_label_publicConfig_locales: 'Lokalizacje',

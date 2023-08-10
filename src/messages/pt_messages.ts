@@ -217,7 +217,7 @@ export default {
   admin_label_publicConfig_title: 'titulo do site',
   admin_label_publicConfig_siteUrl: 'URL do site',
   admin_label_publicConfig_public: 'Público?',
-  admin_label_publicConfig_allowRegistration: 'Permitir registro?',
+  admin_label_publicConfig_registrationEnabled: 'Permitir registro?',
   admin_label_publicConfig_limitRegistration: 'Limite de registro',
   admin_label_publicConfig_inviteFriendsEnabled: 'Mostrar \'Convidar amigos\' para usuários logados?',
   admin_label_publicConfig_locales: 'local',

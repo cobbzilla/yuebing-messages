@@ -217,7 +217,7 @@ export default {
   admin_label_publicConfig_title: 'ウェブサイト名',
   admin_label_publicConfig_siteUrl: 'サイトのURL',
   admin_label_publicConfig_public: '公衆？',
-  admin_label_publicConfig_allowRegistration: '登録を許可しますか?',
+  admin_label_publicConfig_registrationEnabled: '登録を許可しますか?',
   admin_label_publicConfig_limitRegistration: '制限登録',
   admin_label_publicConfig_inviteFriendsEnabled: 'ログインしているユーザーに「友達を招待」を表示しますか?',
   admin_label_publicConfig_locales: 'ローカル',

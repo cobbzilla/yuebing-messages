@@ -222,7 +222,7 @@ export default {
   admin_label_publicConfig_title: 'সাইট শিরোনাম',
   admin_label_publicConfig_siteUrl: 'সাইট URL টি',
   admin_label_publicConfig_public: 'পাবলিক?',
-  admin_label_publicConfig_allowRegistration: 'নিবন্ধনের অনুমতি দেবেন?',
+  admin_label_publicConfig_registrationEnabled: 'নিবন্ধনের অনুমতি দেবেন?',
   admin_label_publicConfig_limitRegistration: 'সীমা নিবন্ধন',
   admin_label_publicConfig_inviteFriendsEnabled: 'লগ ইন করা ব্যবহারকারীদের &#39;বন্ধুদের আমন্ত্রণ&#39; দেখাবেন?',
   admin_label_publicConfig_locales: 'লোকেল',

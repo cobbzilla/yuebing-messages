@@ -408,7 +408,7 @@ export default {
   admin_label_publicConfig_title: 'Site Title',
   admin_label_publicConfig_siteUrl: 'Site URL',
   admin_label_publicConfig_public: 'Public?',
-  admin_label_publicConfig_allowRegistration: 'Allow Registration?',
+  admin_label_publicConfig_registrationEnabled: 'Allow Registration?',
   admin_label_publicConfig_limitRegistration: 'Limit Registration',
   admin_label_publicConfig_inviteFriendsEnabled: 'Show \'Invite Friends\' to logged-in accounts?',
   admin_label_publicConfig_locales: 'Locales',
