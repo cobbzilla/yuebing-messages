@@ -92,6 +92,7 @@ export default {
   typename_library: 'library',
   typename_publicConfig: 'public configuration',
   typename_privateConfig: 'private configuration',
+  typename_localConfig: 'local configuration',
 
     // media browsing
   title_browsing_folder: 'Folder: {{ folder }}',
@@ -395,6 +396,7 @@ export default {
   admin_title_account_administration: 'Manage Accounts',
   admin_title_publicConfig_administration: 'Manage Public Configuration Settings',
   admin_title_privateConfig_administration: 'Manage Private Configuration Settings',
+  admin_title_localConfig_administration: 'Manage Local Configuration Settings',
   admin_title_migrate_data: 'Migrate Data',
   admin_title_transform_queue: 'Media Transform Queue',
   admin_title_index_administration: 'Manage Indexes',

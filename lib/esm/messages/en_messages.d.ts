@@ -81,6 +81,7 @@ declare const _default: {
     typename_library: string;
     typename_publicConfig: string;
     typename_privateConfig: string;
+    typename_localConfig: string;
     title_browsing_folder: string;
     label_previous_page: string;
     label_next_page: string;
@@ -368,6 +369,7 @@ declare const _default: {
     admin_title_account_administration: string;
     admin_title_publicConfig_administration: string;
     admin_title_privateConfig_administration: string;
+    admin_title_localConfig_administration: string;
     admin_title_migrate_data: string;
     admin_title_transform_queue: string;
     admin_title_index_administration: string;
