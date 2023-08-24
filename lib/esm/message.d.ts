@@ -6,5 +6,3 @@ export declare const currentLocaleForAccount: (account: AccountWithLocale, brows
 export declare const localeMessagesForAccount: (account: AccountWithLocale, browserLocale: string | null, anonLocale: string | null) => HokeyLocaleMessages;
 export declare const localeEmoji: (locale: string) => string | undefined;
 export declare const stopWords: () => string[];
-export declare const capitalize: (s: string) => string;
-export declare const uncapitalize: (s: string) => string;
