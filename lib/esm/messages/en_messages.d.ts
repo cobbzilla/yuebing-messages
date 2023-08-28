@@ -496,6 +496,8 @@ declare const _default: {
     label_media_document_description: string;
     label_media_mixed: string;
     label_media_mixed_description: string;
+    label_media_ext: string;
+    label_media_ext_description: string;
     admin_label_volume: string;
     admin_button_add_volume: string;
     admin_title_add_volume: string;

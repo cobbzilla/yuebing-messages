@@ -534,6 +534,8 @@ export default {
   label_media_document_description: 'Books, papers, and other documents',
   label_media_mixed: 'Mixed',
   label_media_mixed_description: 'A mix of content containing any supported media type',
+  label_media_ext: 'File extensions',
+  label_media_ext_description: 'Files that end with one of these extensions will be processed by this media plugin',
 
   // Data Volume Administration
   admin_label_volume: 'Data Volume',
