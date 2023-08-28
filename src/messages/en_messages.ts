@@ -18,6 +18,8 @@ export default {
   title_source_setup_details: 'Sources are where your media comes from. You need at least one source to do anything fun. Create one now!',
   title_destination_setup: 'Set up your first storage volume',
   title_destination_setup_details: 'Storage volumes are where processed media files and system files are stored. You need at least one storage volume to do anything fun. Create one now!',
+  title_media_setup: 'Set up media plugins',
+  title_media_setup_details: 'No media plugins found. These must be registered before starting the server.',
   title_verifying: 'Verifying account...',
   title_requestPasswordReset: 'Reset password',
   title_resetPassword: 'Set a new password',

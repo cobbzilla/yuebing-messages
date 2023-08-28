@@ -14,6 +14,8 @@ declare const _default: {
     title_source_setup_details: string;
     title_destination_setup: string;
     title_destination_setup_details: string;
+    title_media_setup: string;
+    title_media_setup_details: string;
     title_verifying: string;
     title_requestPasswordReset: string;
     title_resetPassword: string;
