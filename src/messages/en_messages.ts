@@ -95,6 +95,8 @@ export default {
   typename_publicConfig: 'public configuration',
   typename_privateConfig: 'private configuration',
   typename_localConfig: 'local configuration',
+  typename_media: 'media plugin',
+  typename_mediaProfile: 'media profile',
 
     // media browsing
   title_browsing_folder: 'Folder: {{ folder }}',
@@ -395,6 +397,7 @@ export default {
   admin_title_destination_administration: 'Manage Storage Volumes',
   admin_title_library_administration: 'Manage Libraries',
   admin_title_media_administration: 'Manage Media Plugins',
+  admin_title_mediaProfile_administration: 'Manage Media Profiles',
   admin_title_volume_browser: 'Browse Sources',
   admin_title_account_administration: 'Manage Accounts',
   admin_title_publicConfig_administration: 'Manage Public Configuration Settings',
