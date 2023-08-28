@@ -394,6 +394,7 @@ export default {
   admin_title_source_administration: 'Manage Sources',
   admin_title_destination_administration: 'Manage Storage Volumes',
   admin_title_library_administration: 'Manage Libraries',
+  admin_title_media_administration: 'Manage Media Plugins',
   admin_title_volume_browser: 'Browse Sources',
   admin_title_account_administration: 'Manage Accounts',
   admin_title_publicConfig_administration: 'Manage Public Configuration Settings',

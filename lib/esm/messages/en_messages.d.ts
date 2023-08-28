@@ -367,6 +367,7 @@ declare const _default: {
     admin_title_source_administration: string;
     admin_title_destination_administration: string;
     admin_title_library_administration: string;
+    admin_title_media_administration: string;
     admin_title_volume_browser: string;
     admin_title_account_administration: string;
     admin_title_publicConfig_administration: string;
