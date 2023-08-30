@@ -381,6 +381,8 @@ declare const _default: {
     admin_title_media_administration: string;
     admin_title_mediaProfile_administration: string;
     admin_title_mediaProfile_administration_details: string;
+    admin_title_libraryScan_administration: string;
+    admin_title_sourceScan_administration: string;
     admin_title_volume_browser: string;
     admin_title_account_administration: string;
     admin_title_publicConfig_administration: string;
@@ -526,6 +528,14 @@ declare const _default: {
     label_mediaProfile_noop_description: string;
     label_mediaProfile_primary: string;
     label_mediaProfile_primary_description: string;
+    label_scan_status: string;
+    label_scan_owner: string;
+    label_scan_started: string;
+    label_scan_finished: string;
+    label_scan_errorCount: string;
+    label_libraryScan_library: string;
+    label_sourceScan_lock: string;
+    label_sourceScan_owner: string;
     admin_label_volume: string;
     admin_button_add_volume: string;
     admin_title_add_volume: string;
