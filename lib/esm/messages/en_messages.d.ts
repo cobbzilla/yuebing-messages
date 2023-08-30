@@ -29,7 +29,13 @@ declare const _default: {
     info_profile_update: string;
     button_reset_password: string;
     button_delete_my_account: string;
+    admin_label_confirm_library_delete: string;
+    admin_label_confirm_account_delete: string;
     label_confirm_account_delete: string;
+    label_volume_confirm_delete: string;
+    admin_label_source_confirm_delete: string;
+    admin_label_destination_confirm_delete: string;
+    admin_label_mediaProfile_confirm_delete: string;
     label__meta_ctime: string;
     label__meta_mtime: string;
     label__meta_id: string;
@@ -452,7 +458,6 @@ declare const _default: {
     admin_label_total_account_count: string;
     admin_button_add_account: string;
     admin_button_delete_account: string;
-    admin_label_confirm_account_delete: string;
     label_configCategory: string;
     admin_label_actions: string;
     admin_info_added: string;
@@ -472,7 +477,6 @@ declare const _default: {
     admin_button_update_library: string;
     admin_title_delete_library: string;
     admin_button_delete_library: string;
-    admin_label_confirm_library_delete: string;
     admin_info_library_added: string;
     admin_info_library_updated: string;
     admin_info_library_deleted: string;
@@ -482,10 +486,8 @@ declare const _default: {
     admin_label_library_media_description: string;
     admin_label_library_sources: string;
     admin_label_library_sources_description: string;
-    admin_label_source_confirm_delete: string;
     admin_label_library_destinations: string;
     admin_label_library_destinations_description: string;
-    admin_label_destination_confirm_delete: string;
     admin_label_library_autoscanEnabled: string;
     admin_label_library_autoscan: string;
     admin_label_library_interval: string;
@@ -547,7 +549,6 @@ declare const _default: {
     admin_label_reindex_status: string;
     admin_label_reindex_noResults: string;
     admin_info_path_delete: string;
-    label_volume_confirm_delete: string;
     admin_info_volume_added: string;
     admin_info_volume_deleted: string;
     admin_info_volume_add_error: string;
