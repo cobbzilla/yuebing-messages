@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   hokey-runtime:
-    specifier: ^1.0.8
-    version: 1.0.8
+    specifier: ^1.0.9
+    version: 1.0.9
 
 devDependencies:
   '@types/chai':
@@ -814,8 +814,8 @@ packages:
     hasBin: true
     dev: true
 
-  /hokey-runtime@1.0.8:
-    resolution: {integrity: sha512-YqJSwM99lVgkxZ0lv38LfzBCwMPYpgiYaDZoGDOHtE3+Nkjk9unEitsnwHZViAGscJPglTCJhdozkd/Gcf0kNA==}
+  /hokey-runtime@1.0.9:
+    resolution: {integrity: sha512-8itZZEm4uRENjOxR0TGmLhU4X5b+wVKFh2URyYO5fcgtL9Ci9XGyDCGCSwVzG/mgv6sUeM0w9tzKiHrahDOhcA==}
     dev: false
 
   /ignore@5.2.4:
