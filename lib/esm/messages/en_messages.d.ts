@@ -503,6 +503,7 @@ declare const _default: {
     admin_label_library_autoscan: string;
     admin_label_library_interval: string;
     admin_label_library_interval_description: string;
+    admin_label_library_action_scan: string;
     label_media_video: string;
     label_media_video_description: string;
     label_media_audio: string;
