@@ -400,6 +400,7 @@ export default {
   admin_title_library_administration: 'Manage Libraries',
   admin_title_media_administration: 'Manage Media Plugins',
   admin_title_mediaProfile_administration: 'Manage Media Profiles',
+  admin_title_mediaProfile_administration_details: 'configure source transformations',
   admin_title_volume_browser: 'Browse Sources',
   admin_title_account_administration: 'Manage Accounts',
   admin_title_publicConfig_administration: 'Manage Public Configuration Settings',
