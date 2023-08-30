@@ -107,7 +107,7 @@ export default {
   typename_media: 'media plugin',
   typename_mediaProfile: 'media profile',
 
-    // media browsing
+  // media browsing
   title_browsing_folder: 'Folder: {{ folder }}',
   label_previous_page: 'previous page of results',
   label_next_page: 'next page of results',
@@ -360,6 +360,7 @@ export default {
   label_duration_minutes: 'minutes',
   label_duration_seconds: 'seconds',
 
+  hint_empty: '(empty)',
   hint_readonly: '(read-only)',
 
   // mediainfo fields

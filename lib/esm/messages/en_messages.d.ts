@@ -336,6 +336,7 @@ declare const _default: {
     label_duration_hours: string;
     label_duration_minutes: string;
     label_duration_seconds: string;
+    hint_empty: string;
     hint_readonly: string;
     label_mediainfo_title: string;
     label_mediainfo_artist: string;
