@@ -601,6 +601,7 @@ declare const _default: {
     label_volumeType_encryption_encryptionIV: string;
     label_volumeType_encryption_encryptionAlgo: string;
     label_volumeType_system: string;
+    label_volumeType_assets: string;
     label_volumeType_local: string;
     label_volumeType_local_key: string;
     label_volumeType_local_createIfNotExist: string;
