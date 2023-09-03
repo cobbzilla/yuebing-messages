@@ -631,7 +631,7 @@ export default {
   admin_info_volume_added: 'The new data volume \'{{ id }}\' was successfully added',
   admin_info_volume_deleted: 'The new data volume \'{{ id }}\' was successfully removed',
   admin_info_volume_add_error: 'An error occurred adding data volume \'{{ id }}\'',
-  label_self_volume: '{{ title }} storage',
+  label_default_volume: '{{ title }} storage',
   admin_button_unsync_system_volume: 'Un-synchronize',
   admin_button_unsync_system_volume_hint: 'Remove system files from remote volume and stop synchronization. The remote volume will no longer be bootable.',
   label_sourceType_name: 'Source Name',

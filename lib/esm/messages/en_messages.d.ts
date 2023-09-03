@@ -587,7 +587,7 @@ declare const _default: {
     admin_info_volume_added: string;
     admin_info_volume_deleted: string;
     admin_info_volume_add_error: string;
-    label_self_volume: string;
+    label_default_volume: string;
     admin_button_unsync_system_volume: string;
     admin_button_unsync_system_volume_hint: string;
     label_sourceType_name: string;
