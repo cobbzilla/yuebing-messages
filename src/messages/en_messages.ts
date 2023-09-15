@@ -586,6 +586,7 @@ export default {
   label_scan_errorCount: 'Errors',
   label_libraryScan_library: 'Library',
   label_libraryScan_scanId: 'Scan ID',
+  label_libraryScan_scheduled: 'Scheduled',
   label_sourceScan_lock: 'Source',
   label_sourceScan_owner: 'Owner',
   label_sourceAsset_name: 'Name',
