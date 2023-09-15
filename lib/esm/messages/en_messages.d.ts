@@ -543,6 +543,7 @@ declare const _default: {
     label_scan_finished: string;
     label_scan_errorCount: string;
     label_libraryScan_library: string;
+    label_libraryScan_scanId: string;
     label_sourceScan_lock: string;
     label_sourceScan_owner: string;
     label_sourceAsset_name: string;
