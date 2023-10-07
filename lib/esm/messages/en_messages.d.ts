@@ -440,7 +440,18 @@ declare const _default: {
     admin_label_privateConfig_autoscanEnabled: string;
     admin_label_privateConfig_autoscan: string;
     admin_label_privateConfig_autoscan_initialDelay: string;
+    admin_label_privateConfig_autoscan_scanPollInterval: string;
+    admin_label_privateConfig_autoscan_analyzerPollInterval: string;
+    admin_label_privateConfig_autoscan_transformerPollInterval: string;
+    admin_label_privateConfig_autoscan_uploaderPollInterval: string;
+    admin_label_privateConfig_autoscan_downloadDir: string;
+    admin_label_privateConfig_autoscan_assetDir: string;
     admin_label_privateConfig_autoscan_interval: string;
+    admin_label_privateConfig_autoscan_runScanner: string;
+    admin_label_privateConfig_autoscan_runAnalyzer: string;
+    admin_label_privateConfig_autoscan_runTransformer: string;
+    admin_label_privateConfig_autoscan_runUploader: string;
+    admin_label_privateConfig_autoscan_removeLocalFile: string;
     admin_label_privateConfig_email: string;
     admin_label_privateConfig_email_host: string;
     admin_label_privateConfig_email_port: string;
