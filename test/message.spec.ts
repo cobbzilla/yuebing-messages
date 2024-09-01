@@ -1,8 +1,8 @@
 import { describe, it } from "mocha";
 import { expect } from "chai";
 
-import * as msg from "../lib/esm/index.js";
 import { fieldErrorMessage, parseMessage } from "hokey-runtime";
+import * as msg from "../src";
 
 describe("template message test", async () => {
     it("properly renders a message with a templated value", async () => {
